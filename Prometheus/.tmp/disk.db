@@ -104,12 +104,12 @@
       {
         "nev": "Programozás",
         "oktato": "Daiki Tenno",
-        "datum": "2015-11-19T00:00:00.000Z",
-        "megjegyzes": "e",
+        "datum": "2015-11-13T00:00:00.000Z",
+        "megjegyzes": "rtz",
         "user": 2,
-        "createdAt": "2015-11-01T18:02:16.732Z",
-        "updatedAt": "2015-11-01T19:13:07.080Z",
-        "id": 54
+        "createdAt": "2015-11-01T20:10:42.435Z",
+        "updatedAt": "2015-11-01T20:10:42.435Z",
+        "id": 55
       }
     ],
     "user": [
@@ -266,7 +266,7 @@
       "id": 4
     },
     "tantargy": {
-      "id": 54
+      "id": 55
     }
   }
 }
