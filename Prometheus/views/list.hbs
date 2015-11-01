@@ -1,0 +1,41 @@
+<h1>Listázás</h1>
+<div class="panel">
+  <form method="get" action="/list" >
+    <div class="form-group">
+      <div class="col-lg-6 col-lg-offset-2">
+        <input type="date" class="form-control" 
+               name="query" id="search" 
+               {{#if query}}
+               value="{{query}}"
+               {{/if}}
+      </div>
+      <div class="col-lg-2">
+        <input type="submit" class="btn btn-primary" value="Keresés">
+      </div>
+    </div>
+  </form>
+</div>
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Tantárgy</th>
+      <th>Oktató</th>
+      <th>Dátum</th>
+      <th>Megjegyzés</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data as |targy|}}
+    <tr>
+      <td>{{targy.nev}}</td>
+      <td>{{targy.oktato}}</td>
+      <td>{{targy.datum}}</td>
+      <td>{{targy.megjegyzes}}</td>
+      <td>
+        <a href="/delete/{{targy.id}}">Törlés</a>
+        <a href="/edit/{{targy.id}}">Módosítás</a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table> 

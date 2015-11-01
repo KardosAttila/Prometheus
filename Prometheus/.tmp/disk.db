@@ -1,0 +1,272 @@
+{
+  "data": {
+    "birthday": [
+      {
+        "nev": "Kiss Elemér",
+        "datum": "2015-10-21T00:00:00.000Z",
+        "user": 1,
+        "createdAt": "2015-10-22T13:10:28.629Z",
+        "updatedAt": "2015-10-22T13:10:28.629Z",
+        "id": 1
+      },
+      {
+        "nev": "Minta Béla",
+        "datum": "2015-10-21T00:00:00.000Z",
+        "user": 1,
+        "createdAt": "2015-10-22T13:11:22.796Z",
+        "updatedAt": "2015-10-22T13:11:22.796Z",
+        "id": 2
+      },
+      {
+        "nev": "Minta Béla",
+        "datum": "2015-10-21T00:00:00.000Z",
+        "user": 1,
+        "createdAt": "2015-10-22T13:11:45.978Z",
+        "updatedAt": "2015-10-22T13:11:45.978Z",
+        "id": 3
+      },
+      {
+        "nev": "Minta Béla",
+        "datum": "2015-10-21T00:00:00.000Z",
+        "user": 1,
+        "createdAt": "2015-10-22T13:12:15.357Z",
+        "updatedAt": "2015-10-22T13:12:15.357Z",
+        "id": 4
+      },
+      {
+        "nev": "Minta Béla",
+        "datum": "2015-10-21T00:00:00.000Z",
+        "user": 1,
+        "createdAt": "2015-10-22T13:12:22.842Z",
+        "updatedAt": "2015-10-22T13:12:22.842Z",
+        "id": 5
+      },
+      {
+        "nev": "Analízis 3",
+        "datum": "2015-10-08T00:00:00.000Z",
+        "user": 3,
+        "createdAt": "2015-10-26T23:11:10.815Z",
+        "updatedAt": "2015-10-26T23:11:10.815Z",
+        "id": 9
+      },
+      {
+        "nev": "North America",
+        "oktato": "Canada",
+        "date": "2015-10-28T14:51:54.785Z",
+        "datum": "2015-10-16T00:00:00.000Z",
+        "user": 2,
+        "createdAt": "2015-10-28T14:51:54.786Z",
+        "updatedAt": "2015-10-28T14:51:54.786Z",
+        "id": 35
+      },
+      {
+        "nev": "Asia",
+        "oktato": "Russia",
+        "date": "2015-10-28T19:28:17.134Z",
+        "datum": "2015-10-10T00:00:00.000Z",
+        "user": 2,
+        "createdAt": "2015-10-28T19:28:17.135Z",
+        "updatedAt": "2015-10-28T19:28:17.135Z",
+        "id": 38
+      },
+      {
+        "nev": "Asia",
+        "oktato": "China",
+        "date": "2015-10-30T13:34:13.122Z",
+        "datum": "2015-10-15",
+        "user": 2,
+        "createdAt": "2015-10-30T13:34:13.123Z",
+        "updatedAt": "2015-10-30T13:34:13.123Z",
+        "id": 39
+      }
+    ],
+    "tantargy": [
+      {
+        "nev": "Programozás",
+        "oktato": "Iván Gergő",
+        "date": "2015-10-30T17:44:58.424Z",
+        "datum": "2015-10-27T00:00:00.000Z",
+        "user": 4,
+        "createdAt": "2015-10-30T17:44:58.425Z",
+        "updatedAt": "2015-10-30T17:44:58.425Z",
+        "id": 17
+      },
+      {
+        "nev": "Analízis",
+        "oktato": "Filipp Zoltán",
+        "date": "2015-10-30T17:45:09.727Z",
+        "datum": "2015-10-12T00:00:00.000Z",
+        "user": 4,
+        "createdAt": "2015-10-30T17:45:09.727Z",
+        "updatedAt": "2015-10-30T17:45:09.727Z",
+        "id": 18
+      },
+      {
+        "nev": "Programozás",
+        "oktato": "Daiki Tenno",
+        "datum": "2015-11-19T00:00:00.000Z",
+        "megjegyzes": "e",
+        "user": 2,
+        "createdAt": "2015-11-01T18:02:16.732Z",
+        "updatedAt": "2015-11-01T19:13:07.080Z",
+        "id": 54
+      }
+    ],
+    "user": [
+      {
+        "surname": "w",
+        "forename": "w",
+        "neptun": "w",
+        "password": "$2a$10$76FCiUCXAp2YW5cVQ8KS5.MyUPPSuIxfN0BUzxbfK7bI5y9bbZoeq",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-22T13:10:28.369Z",
+        "updatedAt": "2015-10-22T13:10:28.369Z",
+        "id": 1
+      },
+      {
+        "surname": "Kardos",
+        "forename": "Attila",
+        "neptun": "u6l05s",
+        "password": "$2a$10$ly2D1X1uzvCDpAVh.MR64uGpZTdP5qV7fRYxgP92yFnTccB4iOK5S",
+        "avatar": "http://images.clipartpanda.com/ball-20clip-20art-1197103862376117882Gioppino_Soccer_Ball.svg.med.png",
+        "role": "riporter",
+        "createdAt": "2015-10-26T21:52:17.523Z",
+        "updatedAt": "2015-10-26T21:52:17.523Z",
+        "id": 2
+      },
+      {
+        "surname": "gipsz",
+        "forename": "jakab",
+        "neptun": "uzu3rx",
+        "password": "$2a$10$6HTFybL8qgAIYcVS/sT8YucV3WWLXIPeIR5.xTyZOb31/1YldV.em",
+        "role": "riporter",
+        "createdAt": "2015-10-26T23:10:48.087Z",
+        "updatedAt": "2015-10-26T23:10:48.087Z",
+        "id": 3
+      },
+      {
+        "surname": "gipsz",
+        "forename": "jakab",
+        "neptun": "abcd",
+        "password": "$2a$10$B50x.I5tjcAKWC/CgfaJZeiZbCjIy4zWhZLpvhHRSFUiiddBcVmea",
+        "role": "riporter",
+        "createdAt": "2015-10-30T17:44:43.877Z",
+        "updatedAt": "2015-10-30T17:44:43.877Z",
+        "id": 4
+      }
+    ]
+  },
+  "schema": {
+    "birthday": {
+      "nev": {
+        "type": "string"
+      },
+      "oktato": {
+        "type": "string"
+      },
+      "date": {
+        "type": "datetime"
+      },
+      "datum": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "tantargy": {
+      "nev": {
+        "type": "string"
+      },
+      "oktato": {
+        "type": "string"
+      },
+      "datum": {
+        "type": "date"
+      },
+      "megjegyzes": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "birthday": {
+      "id": 39
+    },
+    "user": {
+      "id": 4
+    },
+    "tantargy": {
+      "id": 54
+    }
+  }
+}

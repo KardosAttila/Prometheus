@@ -1,0 +1,92 @@
+<h1>Hozzáadás</h1>
+<form class="form-horizontal col-lg-8 col-lg-offset-2"
+      method="post" action="/add">
+  <fieldset>
+    
+    <head> 
+    <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" /> 
+     
+<script type="text/javascript">
+    
+    var oktatokLista = new Array(4) 
+ oktatokLista["empty"] = ["Válasszon oktatót!"]; 
+ oktatokLista["Analízis"] = ["Németh Zsolt", "Szarvas Kristóf", "Filipp Zoltán"]; 
+ oktatokLista["Programozás"] = ["Daiki Tenno", "László Ildikó", "Gregorics Tibor", "Iván Gergő"]; 
+ oktatokLista["Diszkrét matematika"] = ["Tóth Viktória", "Mérai László", "Burcsi Péter"]; 
+ oktatokLista["Alkalmazások fejlesztése"]= ["Visnovitz Márton", "Kereszti Krisztián", "Kereszti Zalán", "Horváth Győző"]; 
+ 
+ 
+ function oktatoChange(selectObj) { 
+ 
+ var idx = selectObj.selectedIndex; 
+ 
+ var which = selectObj.options[idx].value; 
+ 
+ cList = oktatokLista[which]; 
+ 
+ var cSelect = document.getElementById("oktato"); 
+ 
+ var len=cSelect.options.length; 
+ while (cSelect.options.length > 0) { 
+ cSelect.remove(0); 
+ } 
+ var newOption; 
+ // create new options 
+ for (var i=0; i<cList.length; i++) { 
+ newOption = document.createElement("option"); 
+ newOption.value = cList[i];  // assumes option string and value are the same 
+ newOption.text=cList[i]; 
+ // add the new option 
+ try { 
+ cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 
+ } 
+ catch (e) { 
+ cSelect.appendChild(newOption); 
+ } 
+ } 
+ } 
+//]]>
+</script>
+</head>
+<body>
+  <noscript>This page requires JavaScript be available and enabled to function properly</noscript>
+  
+  <label for="targy" >Válasszon tárgyat!</label>
+  <select name="nev" id="targy"  onchange="oktatoChange(this);">
+    <option value="empty">Válasszon tárgyat!</option>
+    <option value="Analízis">Analízis</option>
+    <option value="Programozás">Programozás</option>
+    <option value="Diszkrét matematika">Diszkrét matematika</option>
+    <option value="Alkalmazások fejlesztése">Alkalmazások fejlesztése</option>
+  </select>
+  <br/>
+  <label for="oktato">Válasszon oktatót!</label>
+  <select name="oktato" id="oktato">
+    <option value="0">Válasszon oktatót!</option>
+  </select>
+  
+      </div>
+    <div class="form-group">
+      <label for="datum" class="col-lg-2 control-label">Dátum: </label>
+      <div class="col-lg-10">
+        <input type="date" class="form-control" 
+               name="datum" id="datum">
+      </div>
+      
+       </div>
+    <div class="form-group">
+      <label for="datum" class="col-lg-2 control-label">megjegyzes: </label>
+      <div class="col-lg-10">
+        <input type="string" class="form-control" 
+               name="megjegyzes" id="megjegyzes">
+      
+      
+    </div>
+    <div class="form-group">
+      <div class="col-lg-8 col-lg-offset-2">
+        <button type="reset" class="btn btn-default pull-left">Mégse</button>
+        <button type="submit" class="btn btn-primary pull-right">Módosítás</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
