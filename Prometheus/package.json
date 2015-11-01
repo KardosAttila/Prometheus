@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/KardosAttila/Prometheus/Prometheus.git"
+    "url": "git://github.com/KardosAttila/Prometheus.git"
   },
   "author": "Kardos Attila",
   "license": "ISC",
