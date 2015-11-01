@@ -29,7 +29,7 @@ A tárgy kiválasztása után gyakorlatvezetőt is választani kell, szintén a 
 
 ======
 
-![ábra](documentation/ábra.jpg "ábra")
+![ábra](dokumentacio/ábra.jpg "ábra")
 
 ======
 
@@ -37,7 +37,7 @@ A tárgy kiválasztása után gyakorlatvezetőt is választani kell, szintén a 
 
 ======
 
-![ábra2](documentation/ábra2.jpg "ábra2")
+![ábra2](dokumentacio/ábra2.jpg "ábra2")
 
 ======
 
@@ -45,7 +45,7 @@ A tárgy kiválasztása után gyakorlatvezetőt is választani kell, szintén a 
 
 ======
 
-![kép](documentation/kép.jpg "kép")
+![kép](dokumentacio/kép.jpg "kép")
 
 ======
 ##Implementáció
