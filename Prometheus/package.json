@@ -27,6 +27,10 @@
     "type": "git",
     "url": "git+https://github.com/KardosAttila/Prometheus.git"
   },
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.14.4"
+  },
   "keywords": [],
   "author": "KardosAttila",
   "license": "ISC",
