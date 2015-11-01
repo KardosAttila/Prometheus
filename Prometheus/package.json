@@ -1,5 +1,5 @@
 {
-  "name": "Prometheus",
+  "name": "prometheus",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,25 +18,15 @@
     "express-session": "^1.11.3",
     "express-validator": "^2.17.1",
     "hbs": "^3.1.1",
+    "jasmine": "^2.3.2",
     "passport": "^0.3.0",
     "passport-local": "^1.0.0",
     "sails-disk": "^0.10.8",
-    "waterline": "^0.10.26"
+    "waterline": "^0.10.26",
+    "zombie": "^4.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KardosAttila/Prometheus.git"
-  },
-  "engines": {
-    "node": "4.1.1",
-    "npm": "2.14.4"
-  },
-  "keywords": [],
-  "author": "KardosAttila",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KardosAttila/Prometheus/issues"
-  },
-  
-  
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
 }
